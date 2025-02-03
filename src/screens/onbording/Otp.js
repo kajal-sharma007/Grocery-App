@@ -88,7 +88,7 @@ const Otp = () => {
 
     // Navigate after confetti animation
     setTimeout(() => {
-      navigation.navigate('Home');
+      navigation.navigate('TabBar');
       setOtpVerified(false); // Reset confetti state after navigation
     }, 3000); // Navigate after 3 seconds
   };

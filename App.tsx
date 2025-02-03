@@ -7,7 +7,7 @@ import Splash from './src/screens/onbording/Splash';
 import Intro from './src/screens/onbording/Intro';
 import Signup from './src/screens/onbording/Signup';
 import Otp from './src/screens/onbording/Otp';
-import Home from './src/screens/Dashboard/Home';
+import TabBar from './src/screens/TabNav/TabBar';
 
 function App() {
   const Stack = createStackNavigator(); 
@@ -22,7 +22,7 @@ function App() {
         <Stack.Screen name="Intro" component={Intro} options={{ headerShown: false }} />
         <Stack.Screen name="Signup" component={Signup} options={{ headerShown: false }} />
         <Stack.Screen name="Otp" component={Otp} options={{ headerShown: false }} />
-        <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
+        <Stack.Screen name="TabBar" component={TabBar} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
