@@ -14,22 +14,22 @@ const TabBar = () => {
       <Tab.Screen
         name="Home"
         component={Home}
-        options={{ tabBarIcon: 'home' }}
+        options={{ tabBarIcon: 'home', headerShown: false }}
       />
       <Tab.Screen
         name="Category"
         component={Category}
-        options={{ tabBarIcon: 'Category' }}
+        options={{ tabBarIcon: 'Category', headerShown: false }}
       />
       <Tab.Screen
         name="Card"
         component={Card}
-        options={{ tabBarIcon: 'Card' }}
+        options={{ tabBarIcon: 'Card', headerShown: false }}
       />
       <Tab.Screen
         name="Profile"
         component={Profile}
-        options={{ tabBarIcon: 'person' }}
+        options={{ tabBarIcon: 'person', headerShown: false }}
       />
     </Tab.Navigator>
   );
