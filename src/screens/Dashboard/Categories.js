@@ -32,7 +32,7 @@ const Categories = () => {
   );
 
   return (
-    <View style={[styles.container, { backgroundColor: COLORS[theme].primary }]}>
+    <View style={styles.container}>
       <Text style={[styles.sectionTitle, { color: COLORS[theme].heading }]}>Categories</Text>
       <FlatList
         data={categories}
